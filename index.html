@@ -1,1 +1,43 @@
-<html><body>PA0702</body></html>
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>PA-0702 Filnavngenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>PA-0702 Filnavngenerator</h2>
+
+<div class="form">
+    <label>Systemnummer *</label>
+    <input id="system" type="text" required>
+
+    <label>Løpenummer *</label>
+    <input id="lopenr" type="text" required>
+
+    <label>Komponentkode</label>
+    <input id="kompkode" type="text">
+
+    <label>Komponent løpenummer</label>
+    <input id="komplop" type="text">
+
+    <label>Informasjonstype</label>
+    <input id="info" type="text">
+
+    <label>Dokumenttype *</label>
+    <select id="doktype">
+        <option value="">Velg...</option>
+    </select>
+
+    <label>Fritekst *</label>
+    <input id="fritekst" type="text" required>
+</div>
+
+<div id="dropzone">
+    Dra fil hit for å gi nytt navn<br><br>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
