@@ -1,1 +1,29 @@
-body {font-family: Arial;}
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+#dropzone {
+    border: 2px dashed #666;
+    padding: 40px;
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+#dropzone.hover {
+    border-color: #0078D4;
+    color: #0078D4;
+}
